@@ -8,7 +8,7 @@ The page includes logo, tagline (*“Brew the Royal Tradition”*), brand descri
 - No external CSS frameworks — handcrafted styles for precision and brand fit
 
 ### Deployment
-- **Live Demo**: [https://your-deployed-link.netlify.app](https://your-deployed-link.netlify.app)  
+- **Live Demo**: https://chai-culture-launchingpage.vercel.app/ 
 - **GitHub Repo**: [https://github.com/your-username/chai-culture-landing](https://github.com/your-username/chai-culture-landing)
 
 ### Design Choices
