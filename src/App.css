@@ -57,12 +57,17 @@ body {
 
 /* Logo */
 .logo {
-  width: 150px;   /* adjust as needed */
-  height: auto;   /* keeps aspect ratio */
-  margin: 0 auto 20px; /* centers and adds spacing */
+  width: 150px;
+  height: auto;
+  margin: 0 auto 20px;
   display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+.logo:hover {
+  transform: scale(1.1); /* slight zoom */
+  filter: brightness(1.2); /* subtle glow effect */
+}
 /* Headline */
 h1 {
   font-family: "Playfair Display", serif;
