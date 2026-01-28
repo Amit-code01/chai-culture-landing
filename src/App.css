@@ -1,0 +1,182 @@
+
+
+/* Push-up animation */
+@keyframes pushUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply to container */
+.container {
+  animation: pushUp 0.8s ease-out forwards;
+}
+
+
+
+
+
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #eae4d8;
+}
+
+/* Full-page royal background */
+.page {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(201, 162, 77, 0.18),
+      rgba(24, 17, 11, 0.95) 60%
+    ),
+    #0f0a06;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered content */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 720px;
+}
+
+/* Logo */
+.logo {
+  width: 150px;   /* adjust as needed */
+  height: auto;   /* keeps aspect ratio */
+  margin: 0 auto 20px; /* centers and adds spacing */
+  display: block;
+}
+
+/* Headline */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.515rem;
+  font-weight: 600;
+  color: #e5cea7;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+/* Divider */
+.divider {
+  width: 80px;
+  height: 1px;
+  background: rgba(201, 162, 77, 0.6);
+  margin: 0 auto 32px;
+}
+
+/* Email signup */
+.email-box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.email-box input {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(201, 162, 77, 0.35);
+  padding: 14px 16px;
+  width: 260px;
+  border-radius: 8px;
+  color: #f1e9db;
+  outline: none;
+}
+
+.email-box input::placeholder {
+  color: rgba(241, 233, 219, 0.5);
+}
+
+.email-box button {
+  background: #d2a84f;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #1a1208;
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+.email-box button:hover {
+  background: #c1973f;
+  transform: translateY(-3px) scale(1.05); /* push up + slight zoom */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* subtle shadow */
+}
+
+/* Launch text */
+.launch {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  color: rgba(241, 233, 219, 0.55);
+}
+
+/* Social links */
+.socials {
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.socials a {
+  color: rgba(241, 233, 219, 0.6);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #d2a84f;
+  transform: scale(1.2);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+   .logo {
+    width: 120px;
+  }
+
+}
+
+/*rights*/
+.rights {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: rgba(241, 233, 219, 0.4);
+  text-align: center;
+}
