@@ -9,7 +9,7 @@ The page includes logo, tagline (*“Brew the Royal Tradition”*), brand descri
 
 ### Deployment
 - **Live Demo**: https://chai-culture-launchingpage.vercel.app/ 
-- **GitHub Repo**: [https://github.com/your-username/chai-culture-landing](https://github.com/your-username/chai-culture-landing)
+- **GitHub Repo**:https://github.com/Amit-code01/chai-culture-landing
 
 ### Design Choices
 I used a **royal, elegant theme** with warm tones to capture Chai Culture’s authenticity.  
