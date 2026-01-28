@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import EmailSignup from "./components/EmailSignup";
 import SocialLinks from "./components/SocialLinks";
-
+import './App.css';
 export default function App() {
   return (
     <main className="page">
